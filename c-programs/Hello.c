@@ -1,18 +1,48 @@
-# include<stdio.h> 
+# include<stdio.h>
+
 int main()
 {
-    float  si, ri, time;
-    int pa;
-    printf ("please enter- Principal Amount:");
-    scanf("%d", &pa);
-    printf("\n Rate of Intrest:");
-    scanf("%f",&ri);
-    printf("\n Enter Time:");
-    scanf("%f", &time);
-    si= (pa*ri*time)/100;
-    printf ("\n simple Intrest is %f" , si);
-    return 0;
+ /* int a, b, sum=0;
+  
+  printf("Enter a:");
+  scanf("%d", &a);
+  printf("Enter b:");
+  scanf("%d", &b);
 
-}
+  sum =a*b;
+
+  printf("sum=%d\n", sum  );
+    return 0;*/ 
+  
+  
+  float a ,b , avg=0;
+   
+  printf("Enter a:");
+  scanf("%f", &a );
+  printf("Enter b:");
+  scanf("%f", &b);
+
+  avg = (a+b)/2;
+  printf("avg=%f\n", avg);
+  return 0;
+
+
+  }
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+ 
+
 
 
