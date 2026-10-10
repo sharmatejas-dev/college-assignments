@@ -64,7 +64,7 @@ int main(){
 
 }*/
 
-
+/*
 #include <stdio.h>
 int main() {
     float length , width , area , perimeter;
@@ -79,4 +79,79 @@ int main() {
 
     return 0;
     
+}*/
+    
+/*
+#include <stdio.h>
+int main(){
+    int a , b , temp;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d" , &a , &b);
+
+    printf("Before swap: a = %d , b = %d\n" , a , b);
+
+    temp = a;
+    a = b;
+    b = temp;
+    
+    printf("After swap: a = %d, b = %d\n", a , b);
+
+    return 0;
+}*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Before swap: a = %d, b = %d\n", a, b);
+
+    a = a + b;
+    b = a - b;
+    a = a - b;    
+
+    printf("After swap: a = %d, b = %d\n", a, b);
+
+    return 0;
+}*/
+
+
+/*
+#include <stdio.h> 
+int main (){
+    int num , square , cube;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    square = num * num;
+    cube   = num * num * num;
+
+    printf("Square = %d\n" , square);
+    printf("Cube = %d\n" , cube);
+    
+    return 0;
+}*/
+
+
+#include <stdio.h>
+
+int main() {
+    int totalDays, years, months, days;
+
+    printf("Enter number of days: ");
+    scanf("%d", &totalDays);
+
+    years = totalDays / 365;
+    months = (totalDays % 365) / 30;
+    days = (totalDays % 365) % 30;
+
+    printf("%d years, %d months, %d days\n", years, months, days);
+
+    return 0;
 }
+
